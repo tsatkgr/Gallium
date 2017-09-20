@@ -6,3 +6,7 @@ nav{
    padding:20px;
    background-color:#BCC6CC;
 }
+a{
+  text-decoration:none;
+  color:black;
+}
