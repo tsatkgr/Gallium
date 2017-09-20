@@ -3,10 +3,16 @@ body{
   padding:0px;
 }
 nav{
-   padding:20px;
+   padding:10px;
    background-color:#BCC6CC;
 }
 a{
   text-decoration:none;
+  padding:10px;
   color:black;
+}
+a:hover{
+  padding:10px;
+  color:white;
+  text-decoration:underline;
 }
