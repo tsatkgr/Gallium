@@ -1,41 +1,85 @@
-body{
-  margin:0px;
-  padding:0px;
-  height: 720px;
-  padding-top: 150px;
-  text-align: center;
-  z-index: 0;
-  background: red; /* For browsers that do not support gradients */    
-  background: -webkit-linear-gradient(left top, #0000FF, #4CA64C); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(bottom right, #0000FF, #4CA64C); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to bottom right, #0000FF, #4CA64C); /* Standard syntax (must be last) */
-}
-nav{
-   padding:10px;
-   background-image:url("mat.jpeg");
-   background-size:cover;
-   background-repeat: no-repeat;
-}
+.content{
+	margin-top:570px;
+    margin-bottom:0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 30px 30px 30px;
+    width: 100%;
+    background-color: WhiteSmoke;
+    }
 a{
-  text-decoration:none;
-  padding:10px;
-  font-family:trebuchet ms;
-  color:black;
-}
-a:hover{
-  padding:5px;
-  color:white;
-  text-decoration:underline;
-}
+      display: inline-block;
+      /*float: left;*/
+      background-color: #316176;
+      border: none;
+      color: white;
+      padding: 12px 26px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      cursor: pointer;
+      font-family:arial;
+      -webkit-transition-property: background, color; /* Safari */
+      -webkit-transition-duration: 0.5s; /* Safari */
+      transition-property: background, color;
+      transition-duration: 0.6s;
+	}
 
-.header{
-  font-family:trebuchet ms;
+a:hover {
+        background: white;
+        color: #7ac5d6;
+        cursor: pointer;
+    }
+.selected{
+        background-color: white;
+        border: 2px solid #3e8aa5;
+        color: #1c304a;
+        padding: 12px 26px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        font-family:arial;
+    }
+.div a{
+	margin-left:auto;
+    margin-right:auto;
+}
+ h1,h2{
+	color:#60b0c7;
+}
+h3{
+ color:#5b7a87;
+}
+h4,h5,h6{
+ color:#819ea5;
+}
+.logo_font{
+    font-family:'Quattrocento Sans', sans-serif;
+    text-align:center;
+    font-size:50px;
+    text-shadow: 3px 0 0 #b0ced1;
 }
 .center{
-  text-align:center;
-  background-color:#BCC6CC;
-  background-image:url("mat.jpeg");
-  background-size:cover;
-  background-repeat: no-repeat;
+	text-align:center;
+}
+.navbar-fixed{
+  overflow: hidden;
+  background-color: WhiteSmoke;
+  top: 0;
+  width: 100%;
+  margin-left:0px;
+  margin-right:0px;
+  padding: 30px 30px 30px 30px;
+}
+body{
+    margin: 0px 0px 0px 0px;
+    background-color: black;
+    background-image:url("who.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    top: 100%;
+    color: white;
 }
