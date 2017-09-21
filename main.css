@@ -13,14 +13,14 @@ a{
   color:black;
 }
 a:hover{
-  padding:10px;
+  padding:5px;
   color:white;
   text-decoration:underline;
 }
 
 .header{
   margin-top:0px;
-  font-size:20px;
+  font-size:10px;
   font-family:trebuchet ms;
   text-align:center;
 }
