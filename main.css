@@ -4,7 +4,9 @@ body{
 }
 nav{
    padding:10px;
-   background-color:#BCC6CC;
+   background-image:url("mat.jpeg");
+   background-size:cover;
+   background-repeat: no-repeat;
 }
 a{
   text-decoration:none;
@@ -24,4 +26,7 @@ a:hover{
 .center{
   text-align:center;
   background-color:#BCC6CC;
+  background-image:url("mat.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
