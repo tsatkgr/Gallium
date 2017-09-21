@@ -5,7 +5,7 @@
     margin-right: auto;
     padding: 30px 30px 30px 30px;
     width: 100%;
-    background-color: WhiteSmoke;
+    background-color: #e74c3c;
     }
 a{
       display: inline-block;
@@ -66,7 +66,7 @@ h4,h5,h6{
 }
 .navbar-fixed{
   overflow: hidden;
-  background-color: WhiteSmoke;
+  background-color: #e74c3c;
   top: 0;
   width: 100%;
   margin-left:0px;
