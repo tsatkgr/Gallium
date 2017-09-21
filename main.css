@@ -19,6 +19,7 @@ a:hover{
 }
 
 .header{
+  position:fixed;
   font-size:20px;
   font-family:trebuchet ms;
   text-align:center;
