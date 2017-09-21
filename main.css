@@ -46,8 +46,11 @@ a:hover {
 	margin-left:auto;
     margin-right:auto;
 }
- h1,h2{
+ h1{
 	color:#60b0c7;
+}
+h2{
+ color:#34495e;
 }
 h3{
  color:#5b7a87;
